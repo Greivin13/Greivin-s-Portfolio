@@ -4,20 +4,20 @@
         <meta charset="UTF-8"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
            <title>Portfolio Website</title>
-        <link rel="sytylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     
     
     <body>
         <header>   
-            <h1 class="heading"> Portfolio</h1>
-        <!--add a logo here-->
             <button class="nav-toggle" aria-label="toggle navigation">  
+                <span class="hamburger"></span>
             </button>
             <nav class="nav">
+                <label class="logo">Greivin's Portfolio</label>
                 <ul class="nav_list">
                     <li class="nav_item"> <a href="#home" class="nav_link">Home</a></li>
-                    <li class="nav_item"> <a href="about-me" class="nav_link"> About me</a></li>
+                    <li class="nav_item"> <a href="ME" class="nav_link"> About me</a></li>
                     <li class="nav_item"> <a href="#projects" class="nav_link">My Projects</a></li>
                     <li class="nav_item"> <a href="#contact" class="nav_link">Contact me</a></li>
                 </ul>
@@ -30,45 +30,74 @@
                 Greivin Arias
             </h1>
             <p class="section_subtitle section_subtitle-intro"> Rutgers Bootcamp Student</p>
-            <img src="img/IMG_8700.jpg" alt="a picture of Greivin Arias">
+            <img src="img/IMG_8700.jpg" alt="a picture of Greivin Arias" class="intro-image">
         </section>
 
         <!--About  me-->
-        <section class="about-me" id="about">
+        <section class="about-me" id="ME">
             <h2 class="section_title section_title-about"> Who I am</h2>
-            <p class="section_subtitle section_subtitle-about"></p>
+            <p class="section_subtitle section_subtitle-about">Bootcamp Student</p>
 
             <div class="about-me_body">
                 <p> My name is Greivin Arias, currently a student 
                     of the Rutgers bootcamp. My goal is to graduate 
                     and accomplish many thigns with the set of skills 
                     learned throughout this course.
-                    
                 </p> 
-                <img src="img/rutgers.png" alt="rutgers logo">
+                <p>As a first genration to get into coding 
+                    i will be given it my all to learn 
+                    and use all of the skills learned from this 
+                    bootcamp. Thank you for visiting.
+               </p>
             </div>
             
 
         </section>
         <!--My projects-->
         <section class="My-projects" id="projects">
-            <h2 class="section_title">My projects</h2> 
-            
-            <!--add my pojects-->
-            
-            <footer>
+            <h2 class="section_title section_title-projects">My projects</h2> 
+
+             <div class="Portfolio"> 
+                <!--project 1-->
+                <a href="https://greivin13.github.io/Main-Quest-Level-1/" class="Portfolio-item">
+                    
+                    <img src="img/refactoring.png" alt="code refactor" class="Portfolio-img">
+                </a>
+
+                 <!--project 2-->
+                     <a  href="" class="Portfolio-item">
+                    <img src="img/project 2.png" alt="Project 2" class="Portfolio-img">
+                </a>
+
+                <!--project 3-->
+                <a  href="" class="Portfolio-item">
+                    <img src="img/project 3.png" alt="Project 3" class="Portfolio-img">
+                </a>
                 
-                <!--Contact me-->
+
+             </div>
+           
+            
+         <footer class="footer">
+                
+         <!--Contact me-->
                 <a href="mailto:greivinars@gmail.com" class="footer_link" id="contact">greivinars@gmail.com</a> 
                 <ul class="contact-list">
                     <li class="contact-list-item"><a class="contact-link" 
-                        href="">Instagram</a></li>
+                        href="https://www.instagram.com/greivin_13/">Instagram</a>
+                    </li>
+                    
                     <li class="contact-list-item"><a class="contact-link"
-                        href="">Indeed</a></li>
+                        href="https://profile.indeed.com/">Indeed</a>
+                    </li>
+                    
                     <li class="contact-list-item"><a class="contact-link"
-                        href="">Twitter</a></li>
+                        href="https://twitter.com/GreivinArias4">Twitter</a>
+                    </li>
+                   
                     <li class="contact-list-item"><a class="contact-link"
-                        href="">Github</a></li>
+                        href="https://github.com/Greivin13">GitHUb</a>
+                    </li>
                 </ul>
             </footer>
      </body>
